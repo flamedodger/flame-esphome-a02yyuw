@@ -1,0 +1,13 @@
+name: "A02YYUW Triggered Sensor"
+description: "Distance sensor using UART and GPIO trigger"
+files:
+  - a02yyuw_triggered.cpp
+  - a02yyuw_triggered.h
+  # Add any other helper files here if needed
+
+# This tells ESPHome it's a sensor component
+sensor:
+  - platform: a02yyuw_triggered
+    uart_id: UART_ID
+    trigger_pin: GPIO_PIN
+    name: "Distance"
