@@ -3,6 +3,7 @@ description: "Distance sensor using UART and GPIO trigger"
 files:
   - a02yyuw_triggered.cpp
   - a02yyuw_triggered.h
+  - sensor.py
   # Add any other helper files here if needed
 
 # This tells ESPHome it's a sensor component
